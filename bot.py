@@ -38,8 +38,8 @@ if not BOT_TOKEN:
     raise RuntimeError("BOT_TOKEN не задан. Добавьте его в Environment на Render.")
 
 ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "7114829971").replace(" ", "").split(",") if x]
-ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "admin123")
-WEBAPP_URL = os.getenv("WEBAPP_URL", "").strip()
+ADMIN_PASSWORD = os.getenv("ADMIN_PASSWORD", "7538")
+WEBAPP_URL = os.getenv("https://ckot23.github.io/artmoto23.io/", "").strip()
 
 # ============ НАСТРОЙКИ ============
 
