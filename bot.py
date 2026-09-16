@@ -43,9 +43,9 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 # НАСТРОЙКИ — заполните перед запуском
 # ---------------------------------------------------------------------------
 
-BOT_TOKEN = ""  # токен от @BotFather
-ADMIN_IDS: list[int] = []  # свой id от @userinfobot, например [123456789]
-WEBAPP_URL = ""  # HTTPS-адрес папки webapp/, например https://логин.github.io/sticker-shop/
+BOT_TOKEN = "8822335669:AAGY7fs9VURR5hFAi2Md67DvovELxWhvNDc"  # токен от @BotFather
+ADMIN_IDS: list[int] = [7114829971]  # свой id от @userinfobot, например [123456789]
+WEBAPP_URL = "https://ckot23.github.io/artmoto23.io/"  # HTTPS-адрес папки webapp/, например https://логин.github.io/sticker-shop/
 
 # ---------------------------------------------------------------------------
 
